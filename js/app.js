@@ -49,7 +49,6 @@ app.data.engines = [
   { link: 'http://weixin.sogou.com/weixin?type=2&query=%keyword%', nick: 'weixin', title: '微信', cn: 'weixin', en: 'wechat' },
   { en: 'wiki', link: 'https://en.wikipedia.org/wiki/%keyword%', nick: '维基', title: 'Wiki', cn: '维基百科' },
   { en: 'map', link: 'http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%keyword%', nick: 'ditu', title: '地图', cn: 'baiduditu' },
-  { title: '美食杰', cn: 'meishijie', en: 'cook', link: 'http://so.meishi.cc/?q=%keyword%', nick: 'meishi' },
   { link: 'https://m.kuaidi100.com/result.jsp?nu=%keyword%', nick: 'kuaidi', title: '快递110', cn: 'kuaidi', en: 'express' },
   { link: 'https://twitter.com/search?q=%keyword%', nick: 'tuite', title: 'Twitter', cn: '推特', en: 'twitter' },
   { en: 'facebook', link: 'https://www.facebook.com/search/top/?init=quick&q=%keyword%', nick: '非死不可', title: 'Facebook', cn: '脸书' },
@@ -66,17 +65,9 @@ app.data.engines = [
     en: 'image'
   },
   { cn: 'npm', en: 'npm', link: 'https://www.npmjs.com/search?q=%keyword%', nick: 'npm', title: 'NPM' },
-  {
-    nick: 'pypi',
-    title: 'PyPI',
-    cn: 'pypi',
-    en: 'python',
-    link: 'https://pypi.python.org/pypi?%3Aaction=search&term=%keyword%&submit=search'
-  },
   { cn: 'github', en: 'github', link: 'https://github.com/search?utf8=%E2%9C%93&q=%keyword%', nick: 'git', title: 'Github' },
   { cn: 'jquery', en: 'jquery', link: 'http://jquery.cuishifeng.cn/%keyword%.html', nick: '$', title: 'jQuery' },
   { cn: 'nodejs', en: 'nodejs', link: 'http://nodejs.cn/api/%keyword%.html', nick: 'node', title: 'Node.js' },
-  { nick: 'element', title: 'Element', cn: 'element', en: 'element', link: 'http://element-cn.eleme.io/#/zh-CN/component/%keyword%' },
   {
     title: 'GooglePlay',
     cn: 'gugeshichang',
